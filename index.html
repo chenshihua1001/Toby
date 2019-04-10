@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		
+		<style>
+			
+			img{
+				/*-webkit-filter:grayscale(0.5) ;*/
+				/*-webkit-filter: brightness(0.5);*/
+				
+				}
+			
+			.img1{
+				-webkit-filter: grayscale(0.6);
+			}
+			.img2{
+				-webkit-filter: brightness(0.5);
+			}
+			.img3{
+				-webkit-filter: blur(50px);
+				transition: all 5s;
+			}
+			
+			.img3:hover{
+				-webkit-filter: blur(50px);
+			}
+			.img4{
+			
+				-webkit-filter: contrast(1.5);
+			}
+			
+			.img5{
+			
+				-webkit-filter: saturate(1.5) blur(50px) grayscale(0.5);
+			}
+			
+			.img6{
+				
+				-webkit-filter: sepia(0.5);
+			}
+			
+			.img7{
+		
+				-webkit-filter: hue-rotate(85deg);
+			}
+			
+			.img8{
+				-webkit-filter: invert(0.5);
+				animation: donghua 10s;
+			}
+			
+			@keyframes donghua{
+				from{
+					-webkit-filter: invert(0.8);
+				}
+				to{
+					-webkit-filter: invert(0);
+				}
+			}
+			
+			.img9{
+				animation: donghua2 10s;
+			}
+			
+			@keyframes donghua2{
+				0%{
+					-webkit-filter: brightness(10) grayscale(1);
+				}
+				80%{
+					-webkit-filter: brightness(1) grayscale(1);
+					
+				}
+				100%{
+					-webkit-filter: brightness(1) grayscale(0);
+				}
+			}
+			
+		</style>
+	</head>
+	<body>
+		<img class="img1" src="js/img/832066287080348516.jpg" />
+		<img class="img2" src="js/img/832066287080348516.jpg" />
+		<img class="img3" src="js/img/832066287080348516.jpg" />
+		<img class="img4" src="js/img/832066287080348516.jpg" />
+		<img class="img5" src="js/img/832066287080348516.jpg" />
+		<img class="img6" src="js/img/832066287080348516.jpg" />
+		<img class="img7" src="js/img/832066287080348516.jpg" />
+		<img class="img8" src="js/img/832066287080348516.jpg" />
+		<img class="img9" src="js/img/832066287080348516.jpg" />
+		
+	</body>
+</html>
